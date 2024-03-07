@@ -1,8 +1,8 @@
 {
-  "name": "flutter-dart-snippets",
-  "displayName": "flutter-snippets",
+  "name": "nirmalcode-flutter-dart-snippets",
+  "displayName": "Flutter Dart Snippets",
   "description": "Snippets for flutter development",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/NirmalAriyathilake/flutter_snippets_extension"
