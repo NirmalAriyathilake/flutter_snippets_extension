@@ -13,6 +13,6 @@
       "  }",
       "}"
     ],
-    "description": "Intitiate LogUtils instance"
+    "description": "Creates stateless widget which shares the name of the file"
   }
 }

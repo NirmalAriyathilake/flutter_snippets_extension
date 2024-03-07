@@ -1,6 +1,6 @@
 {
 	"Part JSON statement": {
-		"prefix": "pts",
+		"prefix": "ptg",
 		"body": [
 			"part '${TM_FILENAME_BASE}.g.dart';",
 		],
@@ -14,7 +14,7 @@
 		"description": "Creates a filled-in freezed part statement"
 	},
 	"Part 'Freezed' with JSON statements": {
-		"prefix": "ptfs",
+		"prefix": "ptfg",
 		"body": [
 			"part '${TM_FILENAME_BASE}.freezed.dart';",
 			"part '${TM_FILENAME_BASE}.g.dart';",
@@ -68,7 +68,7 @@
 			"  }",
 			"}"
 		],
-		"description": "Freezed Data Object Class"
+		"description": "Freezed Data Transfer Object Class"
 	},
 	"Freezed Primitive": {
 		"prefix": "fprimitive",

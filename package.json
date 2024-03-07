@@ -1,5 +1,5 @@
 {
-  "name": "flutter-snippets",
+  "name": "flutter-dart-snippets",
   "displayName": "flutter-snippets",
   "description": "Snippets for flutter development",
   "version": "0.1.0",
@@ -36,15 +36,15 @@
       },
       {
         "language": "dart",
-        "path": "./snippets/Flutter_freezed_snippets.code-snippets"
+        "path": "./snippets/freezed.code-snippets"
       },
       {
         "language": "dart",
-        "path": "./snippets/Flutter_riverpod_snippets.code-snippets"
+        "path": "./snippets/riverpod.code-snippets"
       },
       {
         "language": "dart",
-        "path": "./snippets/Flutter_test_snippets.code-snippets"
+        "path": "./snippets/test.code-snippets"
       }
     ]
   }

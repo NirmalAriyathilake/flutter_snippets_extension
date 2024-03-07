@@ -47,7 +47,7 @@
 	},
 	"Arrange, Act and Assert Test Pattern": {
 		"prefix": "aaa",
-		"description": "Create AAA pattern",
+		"description": "Create AAA pattern test",
 		"body": [
 			"// ASSEMBLE",
 			"${1}",
