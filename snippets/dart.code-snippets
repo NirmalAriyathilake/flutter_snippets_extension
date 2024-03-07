@@ -1,0 +1,20 @@
+{
+  "Class File": {
+    "prefix": "classfile",
+    "body": [
+      "class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} {",
+      "  ${1}",
+      "}"
+    ],
+    "description": "Creates class which shares the name of the file"
+  },
+  "Mixin File": {
+    "prefix": "mixinfile",
+    "body": [
+      "mixin ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} {",
+      "  ${1}",
+      "}"
+    ],
+    "description": "Creates mixin which shares the name of the file"
+  }
+}

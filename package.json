@@ -1,0 +1,40 @@
+{
+  "name": "flutter-snippets",
+  "displayName": "flutter-snippets",
+  "description": "Snippets for flutter development",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "dart",
+        "path": "./snippets/dart.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/flutter.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/ddd.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/Flutter_freezed_snippets.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/Flutter_riverpod_snippets.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/Flutter_test_snippets.code-snippets"
+      }
+    ]
+  }
+}

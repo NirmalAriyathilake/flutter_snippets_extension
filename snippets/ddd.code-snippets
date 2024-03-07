@@ -1,0 +1,45 @@
+{
+  "Value Object Class": {
+    "prefix": "vobj",
+    "body": [
+      "class ${1} extends ValueObject<${0}> {",
+      "  factory ${1}(${0} input) {",
+      "    return ${1}._(",
+      "      right(input),",
+      "    );",
+      "  }",
+      "",
+      "  const ${1}._(this.value);",
+      "",
+      "  @override",
+      "  final Either<ValueFailure<${0}>, ${0}> value;",
+      "}"
+    ],
+    "description": "Create a Value Object Class"
+  },
+  "List Value Object Class": {
+    "prefix": "vobjl",
+    "body": [
+      "class ${1} extends ValueObject<List<${0}>> {",
+      "  const ${1}._(this.value);",
+      "",
+      "  @override",
+      "  final Either<ValueFailure<List<${0}>>, List<${0}>> value;",
+      "",
+      "  factory ${1}(List<${0}> input) {",
+      "    return ${1}._(",
+      "      right(input),",
+      "    );",
+      "  }",
+      "",
+      "  int get length => value.getOrElse(List.empty()).size;",
+      "",
+      "  bool get isEmpty => length == 0;",
+      "",
+      "  bool get isNotEmpty => length > 0;",
+      "",
+      "}"
+    ],
+    "description": "Create a List Value Object Class"
+  }
+}
