@@ -70,6 +70,28 @@
 		],
 		"description": "Freezed Data Transfer Object Class"
 	},
+	"Freezed model file": {
+		"prefix": "model",
+		"body": [
+			"${3:@freezed}",
+			"class ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}} with _$${1:DataClass}{",
+			"  const ${1:DataClass}._();",
+			"",
+			"  const factory ${1:DataClass}({${4}}) = _${1:DataClass};",
+			"",
+			"  factory ${1:DataClass}.fromEntity(${2:${TM_FILENAME_BASE/(.*)_(.*)/${1:/pascalcase}/g}} Entity) {",
+			"    return ${1:DataClass}(${6});",
+			"  }",
+			"",
+			"  factory ${1:DataClass}.fromJson(Map<String, dynamic> json) => _$${1:DataClass}FromJson(json);",
+			"",
+			"  ${2:EntityClass} toEntity() {",
+			"    return ${2:EntityClass}(${5});",
+			"  }",
+			"}"
+		],
+		"description": "Freezed Data Transfer Object Class From Entity",
+	},
 	"Freezed Primitive": {
 		"prefix": "fprimitive",
 		"body": [
